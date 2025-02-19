@@ -1,0 +1,33 @@
+nodes:
+  - id: A
+    implementation: sum
+  - id: B
+    implementation: add 1
+  - id: C
+    implementation: multiply 0.5
+  - id: D
+    implementation: multiply 3
+  - id: E
+    implementation: add -1
+  - id: F
+    implementation: add 122
+  - id: G
+    implementation: sum
+
+transitions:
+  - from: A
+    to: B
+  - from: B
+    to: C
+  - from: B
+    to: G
+  - from: C
+    to: D
+  - from: C
+    to: F
+  - from: D
+    to: E
+  - from: E
+    to: G
+  - from: F
+    to: G

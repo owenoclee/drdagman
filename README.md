@@ -1,3 +1,4 @@
 # drdagman
 
-http-based dag orchestration. work in progress.
+generic dag orchestration framework. http, docker, or roll your own implementation.
+work in progress.
